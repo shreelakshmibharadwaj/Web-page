@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Section</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Additional styling for hover rotation */
+    .rotate-card:hover {
+      transform: rotate(360deg);
+      transition: transform 0.6s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <!-- Assignment Section -->
+  <div id="assignment" class="mx-auto my-10 max-w-6xl p-5">
+    <h1 class="text-center text-4xl font-bold text-purple-800 mb-10">Our Services</h1>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <!-- Service Card 1 -->
+      <div class="rotate-card bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="https://img.icons8.com/ios/50/plumbing.png" alt="Plumbing Icon" class="mb-4">
+        <h2 class="text-lg font-bold text-gray-800 mb-2">Emergency Plumbing Services</h2>
+        <p class="text-sm text-gray-600 mb-4">Our plumbers are ready to go 24/7 for emergencies.</p>
+        <a href="#" class="text-purple-600 font-semibold">Explore This Service</a>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="rotate-card bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="https://img.icons8.com/ios/50/water-heater.png" alt="Drain Icon" class="mb-4">
+        <h2 class="text-lg font-bold text-gray-800 mb-2">Plumbing and Drains</h2>
+        <p class="text-sm text-gray-600 mb-4">We make thousands of repairs every day.</p>
+        <a href="#" class="text-purple-600 font-semibold">Explore This Service</a>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="rotate-card bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="https://img.icons8.com/ios/50/plumbing.png" alt="Water Damage Icon" class="mb-4">
+        <h2 class="text-lg font-bold text-gray-800 mb-2">Water Damage</h2>
+        <p class="text-sm text-gray-600 mb-4">State-of-the-art water extraction and cleanup equipment.</p>
+        <a href="#" class="text-purple-600 font-semibold">Explore This Service</a>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="rotate-card bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="https://img.icons8.com/ios/50/water-heater.png" alt="Water Heater Icon" class="mb-4">
+        <h2 class="text-lg font-bold text-gray-800 mb-2">Water Heaters</h2>
+        <p class="text-sm text-gray-600 mb-4">Repair and replacement of gas, electric, and tankless water heaters.</p>
+        <a href="#" class="text-purple-600 font-semibold">Explore This Service</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
